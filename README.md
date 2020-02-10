@@ -2,4 +2,4 @@
  -- In Preparation --
  
  
-[NB] **Words of caution**: our code is not supposed and was not adapted to work out of box. Our main intent was to show the relevance of applied methods used in our paper.
+[NB] **Words of caution**: our code is not supposed to work out of box, because our main intent was to show the relevance of the methods used in our paper. 
