@@ -17,8 +17,8 @@ For statistical inference we used [cmdStan](https://mc-stan.org/users/interfaces
 Andrei R. Akhmetzhanov is thankful to [Ari Hartikainen](https://github.com/ahartikainen) and [Aki Vehtari](https://github.com/avehtari) for [helpful discussion](https://discourse.mc-stan.org/t/likelihood-for-calculating-waic-in-arviz-package/13013) on how to compute WAIC values in cmdStan/ArviZ.
 
 
-*References to other analysis on github*</br>
-[Estimating case fatality ratio of COVID-19 from observed cases outside China by *Christian L. Althaus*](https://github.com/calthaus/ncov-cfr)
+*References to other analysis on github:*
+* [Estimating case fatality ratio of COVID-19 from observed cases outside China by *Christian L. Althaus*](https://github.com/calthaus/ncov-cfr)
 
 
 ---------
