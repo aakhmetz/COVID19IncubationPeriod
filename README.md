@@ -1,5 +1,16 @@
-# WuhanIncubationPeriod2020
- -- In Preparation --
- 
- 
-[NB] **Words of caution**: Thank you for your interest to our work. We would like to note that our code is not supposed to work out of box, because our main intent was to show the relevance of the methods used in our paper. 
+# Incubation period and other epidemiological characteristics of a novel coronavirus disease (COVID-19)
+
+Supporting Materials for LNatalie M. Linton, Tetsuro Kobayashi, Yichi Yang, Katsuma Hayashi, Andrei R. Akhmetzhanov, Sung-mok Jung, Baoyin Yuan, Ryo Kinoshita, Hiroshi Nishiura. Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data. J. Clin. Med. **2020**, 9, 538. ([doi:10.3390/jcm9020538](http://dx.doi.org/10.3390/jcm9020538))
+
+**Abstract**
+The geographic spread of 2019 novel coronavirus (COVID-19) infections from the epicenter of Wuhan, China, has provided an opportunity to study the natural history of the recently emerged virus. Using publicly available event-date data from the ongoing epidemic, the present study investigated the incubation period and other time intervals that govern the epidemiological dynamics of COVID-19 infections. Our results show that the incubation period falls within the range of 2–14 days with 95% confidence and has a mean of around 5 days when approximated using the best-fit lognormal distribution. The mean time from illness onset to hospital admission (for treatment and/or isolation) was estimated at 3–4 days without truncation and at 5–9 days when right truncated. Based on the 95th percentile estimate of the incubation period, we recommend that the length of quarantine should be at least 14 days. The median time delay of 13 days from illness onset to death (17 days with right truncation) should be considered when estimating the COVID-19 case fatality risk.
+
+There are three main notebooks in this repository:
+* [A. MCMC simulations in Stan.ipynb](https://nbviewer.jupyter.org/github/aakhmetz/WuhanIncubationPeriod2020/blob/master/scripts/A.%20MCMC%20simulations%20in%20Stan.ipynb) to do Stan inference for non-truncated likelihood.
+* [B. MCMC simulations in Stan with right truncation.ipynb](https://nbviewer.jupyter.org/github/aakhmetz/WuhanIncubationPeriod2020/blob/master/scripts/B.%20MCMC%20simulations%20in%20Stan%20with%20right%20truncation.ipynb) to do Stan inference for right truncated likelihood.
+* [C. Processing the traces.ipynb](https://nbviewer.jupyter.org/github/aakhmetz/WuhanIncubationPeriod2020/blob/master/scripts/C.%20Processing%20the%20traces.ipynb) to get statistics of the posterior distribution, construct the traceplots, and generate two main figures for manuscript.
+
+---------
+**Thank you for your interest to our work!** 
+
+Few words of caution: We would like to note that our code is not supposed to work out of box, because the links used in the notebooks were user-specific, and our main intent was to show the relevance of the methods used in our paper.
