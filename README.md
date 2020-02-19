@@ -12,7 +12,7 @@ There are three main notebooks in this repository:
 
 For statistical inference we used [cmdStan](https://mc-stan.org/users/interfaces/cmdstan) (version 2.22.1) and run our simulation on Ubuntu platform. The first two notebooks are written in R language with invoking bash commands. The last notebook is written in Python and utilizes [ArviZ](https://arviz-devs.github.io/arviz/index.html) package (version 0.6.1) for post-processing the posteriors. 
 
-Andrei R. Akhmetzhanov is thankful to [Ari Hartikainen](https://github.com/ahartikainen) and [Aki Vehtari](https://github.com/avehtari) for [helpful discussion](https://discourse.mc-stan.org/t/likelihood-for-calculating-waic-in-arviz-package/13013/6) on how to compute WAIC values in cmdStan/ArviZ.
+Andrei R. Akhmetzhanov is thankful to [Ari Hartikainen](https://github.com/ahartikainen) and [Aki Vehtari](https://github.com/avehtari) for [helpful discussion](https://discourse.mc-stan.org/t/likelihood-for-calculating-waic-in-arviz-package/13013) on how to compute WAIC values in cmdStan/ArviZ.
 
 ---------
 **Thank you for your interest to our work!** 
